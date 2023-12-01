@@ -10,7 +10,7 @@ def send_whatsapp_message(phone_number, message):
     auth = ("YOUR_TWILIO_ACCOUNT_SID", "YOUR_TWILIO_AUTH_TOKEN")
     data = {
         "To": f"whatsapp:{phone_number}",
-        "From": "whatsapp:+14155238886",
+        "From": "whatsapp:+917778888578",
         "Body": message,
     }
     requests.post(url, data=data, auth=auth)
